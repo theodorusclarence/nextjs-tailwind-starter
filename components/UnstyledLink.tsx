@@ -1,6 +1,14 @@
 import Link from 'next/link';
 
-export default function UnstyledLink(props) {
+interface UnstyledLinkProps {
+    href: string;
+    children: React.ReactChild | string;
+    className?: string;
+}
+
+type Props = UnstyledLinkProps & JSX.IntrinsicElements['a'];
+
+export default function UnstyledLink(props: Props) {
     const href = props.href;
     const isInternalLink =
         href && (href.startsWith('/') || href.startsWith('#'));
