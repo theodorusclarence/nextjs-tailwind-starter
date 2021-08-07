@@ -1,16 +1,6 @@
 import clsx from 'clsx';
 
-type ButtonProps = {
-  href: string;
-  children: React.ReactChild | string;
-  className?: string;
-} & React.ComponentPropsWithoutRef<'button'>;
-
-export default function Button({
-  children,
-  className = '',
-  ...rest
-}: ButtonProps) {
+export default function Button({ children, className = '', ...rest }) {
   return (
     <button
       {...rest}
