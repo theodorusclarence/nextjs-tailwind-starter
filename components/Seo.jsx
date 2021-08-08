@@ -14,6 +14,10 @@ export default function Seo(props) {
     ...props,
   };
 
+  meta['title'] = props.templateTitle
+    ? `${props.templateTitle} | ${meta.site_name}`
+    : meta.title;
+
   return (
     <Head>
       <title>{meta.title}</title>

@@ -4,7 +4,7 @@ import CustomLink from '@/components/CustomLink';
 export default function Home() {
   return (
     <>
-      <Seo />
+      <Seo templateTitle='Home' />
 
       <main>
         <section className='bg-dark'>
