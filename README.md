@@ -1,3 +1,11 @@
+### Disclosure
+
+This starter is no longer actively maintained, but dependency will still be updated every Monday.
+
+If you prefer highly maintained starter using TypeScript, please check my [Next.js + Tailwind CSS + TypeScript Starter](https://github.com/theodorusclarence/ts-nextjs-tailwind-starter)
+
+# Next.js + Tailwind CSS Starter
+
 This is a NextJs and Tailwind project bootstrapped using nextjs-tailwind-starter created by [Theodorus Clarence](https://github.com/theodorusclarence/nextjs-tailwind-starter).
 
 See the deployment on [https://nextjs-tailwind-starter.theodorusclarence.com/](https://nextjs-tailwind-starter.theodorusclarence.com/)
