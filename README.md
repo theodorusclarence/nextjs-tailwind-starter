@@ -22,6 +22,7 @@ npx create-next-app -e https://github.com/theodorusclarence/nextjs-tailwind-star
 or
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Ftheodorusclarence%2Fnextjs-tailwind-starter)
+[![Deploy to PandaStack](https://dashboard.pandastack.io/deploy-button.svg)](https://dashboard.pandastack.io/deploy?repo=theodorusclarence/nextjs-tailwind-starter&type=static&buildCmd=npm+run+build&outputDir=dist)
 
 First, run the development server:
 
